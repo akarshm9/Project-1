@@ -1,0 +1,248 @@
+h1 {
+    padding: 20px;
+    width: 1220px;
+    height: 200px;
+    background-color: aqua;
+    color: red;
+    text-align: CENTER;
+    text-justify: CENTER;
+
+    font-family: algerian;
+    font-size: 345%;
+    display: inline-flex;
+}
+
+#para1 {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    opacity: 70%;
+}
+
+#para2 {
+    background-color: black;
+    font-size: larger;
+    color: white;
+
+    /*            opacity: 70%;*/
+}
+
+li {
+    background-color: whitesmoke;
+}
+
+ul {
+    background-color: lightblue;
+    color: blue;
+    font-size: larger;
+    opacity: 70%;
+}
+
+#first {
+    border: 1px dashed white;
+    background-color: white;
+    font-size: larger;
+    /*            opacity: 70%;*/
+}
+
+#second {
+    font-size: larger;
+    border: 1px dashed black;
+    background-color: lightblue;
+    /*            opacity: 70%;*/
+}
+
+#third {
+    border: 1px dashed black;
+    background-color: rgb(204, 211, 204);
+    font-size: larger;
+    /*            opacity: 70%;*/
+}
+
+#four {
+    border: 1px dashed black;
+    background-color: white;
+    font-size: larger;
+    /*            opacity: 70%;*/
+}
+
+#five {
+    border: 1px dashed black;
+    background-color: silver;
+    font-size: larger;
+    /*            opacity: 70%;*/
+}
+
+#six {
+    border: 1px dashed black;
+    background-color: blanchedalmond;
+    font-size: larger;
+    /*            opacity: 70%;*/
+}
+
+footer{
+height:250px;
+background-color: black;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 10px;
+margin-left: 5px;
+margin-top: 5px;
+}
+
+body {
+    background-color: black;
+}
+
+.Advertisement {
+    display: flex;
+    flex-direction: right;
+    font-size: small;
+    color: black;
+    background-color: seagreen;
+
+}
+
+#des {
+    color: white;
+    font-size: larger;
+}
+
+#cnumber {
+    /* background-color: orangered; */
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+#submit {
+    /* background-color: blue; */
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#name {
+    /* background-color: hotpink; */
+    color: white;
+}
+
+img {
+    display: flex;
+    flex-direction: right;
+    align-content: center;
+}
+
+#ndiv {
+    display: inline;
+}
+
+#_ {
+    font-size: smaller;
+    color: red;
+}
+
+* {
+    margin: 9px;
+    padding: 12px;
+    /*            background-color: white;*/
+}
+
+/* nav{
+    width:1500px;
+    height: 250px;
+    color: purple;
+    background-color: hotpink;
+}*/
+nav {
+    width: 1236px;
+    height: 47px;
+    text-align: center;
+    background-color: green;
+    color: white;
+
+}
+
+#calculator {
+    background-color: lightblue;
+    width: 38vw;
+    height: 200px;
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+}
+
+#chhotu {
+    text-align: center;
+    text-decoration: underline;
+    color: indianred;
+    font-size: 45px;
+}
+
+#clock {
+    font-family: verdana;
+    font-size: larger;
+    color: white;
+    background-color: orangered;
+    display: flex;
+    height: 200px;
+    width: 38vw;
+    float: left;
+}
+
+h4 {
+    font-size: 78px;
+}
+
+#Opr1 {
+    height: 10px;
+    background-color: red;
+    color: white;
+    width: auto;
+}
+
+#Opr2 {
+    height: 10px;
+    background-color: blue;
+    color: white;
+    width: auto;
+}
+
+#res {
+    background-color: lightpink;
+    color: darkred;
+    height: 19px;
+    width: auto;
+}
+
+#operator {
+    background-color: lightgreen;
+    height: 12px;
+    width: auto;
+    color: indianred;
+}
+
+#operation {
+    color: white;
+    background-color: blue;
+    height: 12px;
+    width: auto;
+}
+
+#time {
+    height: 10px;
+    width: auto;
+    color: blue;
+}
+
+.navi {
+    align-items: center;
+    width: 100px;
+    height: 5px;
+    text-align: center;
+    display: inline;
+}
+
+/* #search{
+display: inline;
+align-items:right;
+} */

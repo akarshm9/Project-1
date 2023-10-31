@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="sidebar.css">
+
+</head>
+
+<body>
+    <nav>UnofficialGPM <div class="menu"><a id="home" href="GPMuz.htm">Home</a><a id="images"
+                href="Images.htm">Images</a>
+            <a id="dep" href="departments.htm">Departments</a><a id="stud" href="StudData.htm">Student info</a>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <h3>Our contents and explanation on them</h3>
+
+
+        <ul id="aditi" type="none">
+            <li class="aditi"><a href="contents.htm">Location and Admission</a></li>
+            <li class="aditi"><a href="contents.htm">Building</a></li>
+            <li class="aditi"><a href="contents.htm">Syllabus</a></li>
+            <li class="aditi"><a href="contents.htm">Termworks</a></li>
+            <li class="aditi"><a href="contents.htm">Facilities</a></li>
+            <li class="aditi"><a href="contents.htm">Ragging</a></li>
+        </ul>
+        <div class="more">
+            <h3>More pages to get info</h3>
+            <a href="ComputerLabs.htm">Computer Labs</a><br><a href="exams.htm">Examinations</a><br><a
+                href="Coachings.htm">Coachings</a><br><a href="Professors.htm">Professors</a>
+
+
+        </div>
+    </div>
+    <div class="mainly">
+        <h1>Government Polytechnic Muzaffarpur</h1>
+
+        <!-- // -->
+
+       
+        
+        <p id="para1"">Hello Everyone!!<br>
+            I Akarsh Kumar Mishra welcome you to the unofficial site of Govt. Polytechnic Muzaffarpur. I am your senior
+            and
+            learning in 3rd semester in Computer Science and Engineering branch . This site has been built to answer
+            your
+            all big
+            and small doubts related to your Examinations ,Assignments ,Termworks ,Syllabus ,Coachings ,Professors
+            ,Extra
+            curriculum
+            works ,hostels ,Ragging ,etc.<br><br></p>
+            <p id="para2" >
+                One important fact that you must know that it is not any offcial website but it is an unofficial website
+                i.e.
+                made
+                for students ,made by students not by any Professors .Now coming over our discussion point here we will try
+                to
+                resolve your all problems related
+                to college .On this website you will find answers to all your queries .We have noticed that a new student
+                whenever comes then he is so confused about rules ,seniors ,studies ,etc. I was also because i am also a
+                student
+                .
+                The contents are on the side panel.
+    
+            </p>
+            <br><br>
+
+        
+            <div class="tools">
+                <div id="calculator">
+
+                    <input type="number" id="Opr1" placeholder="Operator1">
+                    <select id="operator">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">x</option>
+                        <option value="/">/</option>
+                    </select>
+                    <input type="number" id="Opr2" placeholder="Operator2"> <br><br>
+                    <button id="operation" onclick="Calculate();">Calculate</button>
+                    <input type="text" id="res" placeholder="Result"><br><br>
+                    <h2 id="chhotu">Calculator for you</h2>
+                </div>
+                <div id="clock" onclick="Digiclock();">
+                    <button>Time</button>
+                    <h4></h4>
+                </div>
+            </div>
+
+            </div>
+
+
+
+
+        <footer>
+            Contact: +919334668262
+            <div class="mail">Mail me at:aakarshm826@gmail.com</div>
+        </footer>
+
+</body>
+<script>
+    function Digiclock() {
+        var date = new Date;
+        var hours = date.getHours();
+        var mins = date.getMinutes();
+        var sec = date.getSeconds();
+        var colon = ":";
+        var session = " AM";
+        if (hours >= 12) {
+            hours = hours - 12;
+            session = " PM";
+
+        }
+        if (hours < 10) {
+            hours = "0" + hours;
+
+        }
+        if (mins < 10) {
+            mins = "0" + mins;
+        }
+        if (sec < 10) {
+            sec = "0" + sec;
+        }
+        var time = hours + colon + mins + colon + sec + session;
+        var t = document.getElementsByTagName('h4')[0].innerText = time;
+
+        setTimeout(Digiclock, 1000);
+    }
+    function Calculate() {
+        var one = document.getElementById('Opr1').value;
+        var two = document.getElementById('operator').value;
+        var oe = document.getElementById('Opr2').value;
+        if (two == "+") {
+            var result = parseInt(one) + parseInt(oe);
+            // alert(result);
+        }
+        if (two == "-") {
+            var result = parseInt(one) - parseInt(oe);
+            // alert(result);
+        }
+        if (two == "*") {
+            var result = parseInt(one) * parseInt(oe);
+            // alert(result);
+        }
+        if (two == "/") {
+            var result = parseInt(one) / parseInt(oe);
+            // alert(result);
+        }
+
+        // else {
+        //      alert("Operator not found!!");
+        // }
+        var e = document.getElementById('res').value = result;
+
+
+    }
+    
+    var classica = document.getElementsByClassName('aditi');
+    function Classes() {
+        classica.style.display = "inline-block";
+    }
+  
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,40 @@
+table{
+    border: 5px solid black;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px;
+    margin: 2px;
+    background-color:yellow;
+ 
+}
+h3{
+  border: 3px solid black;
+  color: brown;
+  text-align: center;
+  width: auto;
+  height: 37px;
+ font-size: larger;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: aquamarine;
+}
+/* #CSE{
+    color: black;
+    background-color: yellow;
+}
+#CSE:hover{
+    color: blue;
+} */
+h2{
+    text-align: center;
+    color: black;
+}
+h2:hover{
+   color: blue;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20vh;
+}

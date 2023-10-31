@@ -1,0 +1,35 @@
+body
+{
+    background-color: rgb(128, 128, 231);
+    border: 1px solid silver;
+}
+*
+{
+    padding: 9px;
+    margin: 3px;
+}
+#first:hover
+{
+    color: rgb(4, 4, 129);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#second:hover
+{
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#third:hover
+{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#four:hover
+{
+    color: rgb(99, 4, 188);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#five:hover,#six:hover
+{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

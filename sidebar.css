@@ -1,0 +1,81 @@
+ul
+{
+    background-color: purple;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid white;
+}
+li
+{
+    color: white;
+}
+.sidebar
+{
+    display: flex;
+    float: right;
+    background-color: purple;
+    flex-direction: column;
+    height: 100vh;
+    width: 26vw;
+    color: white;
+    border: 3px solid white;
+    animation: slide 3s ease-in-out  1 linear ;
+}
+
+@keyframes slide{
+    from{width: 26vw;}
+    to{width: 56vw;}
+}
+.mainly
+{
+    height: 100vh;
+    width: 72vw;
+    background-image: url('E:\UsedPics\\foreground1.jpg');
+
+    
+}
+#sode{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: medium;
+    background-color: rgb(215, 11, 215);
+    width: 5vw;
+}
+.bhaskar
+{
+    color: white;
+}
+
+.aditi
+{
+    color: darkred;
+    text-decoration: underline;
+    background-color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+h3
+{
+    padding-top: 3px;
+    margin: 3px;
+}
+#calc
+{
+    width: 5vw;
+    height: 5vh;
+    background-color: brown;
+}
+
+.content
+{
+    width: 10vw;
+    height: 10vh;
+    background-color: blue;
+}
+.tools
+{
+    background-color: blue;
+    opacity: 90%;
+    display: flex;
+}
