@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome!</title>
+    <style>
+       
+
+        h1 {
+            width: 70vw;
+            height: 10vh;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            background-color: lightgray;
+            color: blue;
+            margin-left: 14vw;
+            margin-bottom: 2vw;
+        }
+
+        button {
+            background-color: rgb(13, 89, 130);
+            color: rgb(221, 218, 218);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 2vw 5vw 30vw 40vw;
+            height: 37px;
+            border-radius: 28px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            color: green;
+            background-color: white;
+            border: 2px solid green;
+        }
+
+        * {
+            margin: 5px;
+            padding: 3px;
+        }
+
+        body,
+        html {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(yellow, orange, purple);
+            background-repeat: no-repeat;
+        }
+
+        #info {
+            margin: 3vw 3vw 5vw 5vw;
+            background-color: white;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+            opacity: 50%;
+        }
+
+        @media screen and (max-width:480px) {
+            #info {
+                margin: 4px;
+                padding: 4px;
+                width: 99vw;
+                height: 100vh;
+                background-color: white;
+                color: black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+                opacity: 50%;
+                margin-top: 2vw;
+                font-size: medium;
+                margin-bottom: 0px;
+            }
+
+            body {
+                background: linear-gradient(yellow, orange, purple);
+                background-repeat: no-repeat;
+                height: 100vh;
+                width: 100vw;
+
+            }
+            button{
+                font-size: medium;
+                color: white;
+                background-color: darkred;
+                margin-left: 5vw;
+                margin-top: 2vw;
+            }
+            h1{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: medium;
+            }
+        }
+    </style>
+</head>
+<h1><span><b>Government Polytechnic Muzaffarpur</b></span></h1>
+<div id="info">Welcome to this unofficial site of Govt. Polytechnic Muz. Here you will explore more data and information about the college. The college was established and innaugrated during 1949 by Sri Krishna Singh. It is the number one ranked college for the study of Computer Science and Engineering over all the 44 Polytechnic colleges of bihar. Here, there are a number of tools and devices for laboratory as well as for basic workshop practice. There are two buildings old for admiminstration and the new one for all study and lab related activities, building contains proper seavage facility, parking lot, water coolers, and more.  </div>
+
+<button onclick="OpenHome()">Go to Home Page</button>
+
+
+</body>
+<script>
+    function OpenHome() {
+        window.open("GPMuz.htm");
+    }
+   
+</script>
+
+</html>
